@@ -1,0 +1,235 @@
+:root {
+  --pink-light: #fcddfb;
+  --pink-medium: #FBB6CE;
+  --pink-dark: #360b29;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_23-2149219076.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s;
+}
+
+.header-img {
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.header-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  background-color: rgba(254, 233, 251, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(100, 4, 107);
+  padding: 1rem;
+  width: 90%;
+  max-width: 600px;
+  margin: 2% auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #654a68;
+}
+
+select,
+input,
+button,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #dfcbe0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #D53F8C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #B83280;
+}
+
+button:disabled {
+  background-color: #FBB6CE;
+  cursor: not-allowed;
+}
+
+#error {
+  color: #E53E3E;
+  margin-bottom: 1rem;
+}
+
+#generatedContent {
+  display: none;
+  background-color: var(--pink-light);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  font-weight: bold;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 10px 4px 6px rgba(235, 147, 219, 0.938);
+  border: 2px solid rgb(244, 177, 243);
+  text-align: center;
+}
+
+#generatedContent h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.dark-mode {
+  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2023/03/clouds-sunset-hot-pink-wallpaper.jpg");
+  color: rgb(250, 222, 247);
+}
+
+.dark-mode .container {
+  background-color: rgba(112, 10, 97, 0.9);
+}
+
+.dark-mode .tagline {
+  color: #f0e2ed;
+}
+
+.dark-mode label {
+  color: #f0e2f0;
+}
+
+.dark-mode select,
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #2D3748;
+  color: rgb(255, 245, 254);
+  border-color: #4A5568;
+}
+
+.dark-mode #generatedContent {
+  background-color: #270339;
+  color: rgb(255, 214, 244);
+  box-shadow: 0 4px 6px rgba(244, 194, 244, 0.5);
+}
+
+#themeToggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  z-index: 1;
+}
+
+#miscellaneousInput {
+  display: none;
+}
+
+.footer {
+  background-color: var(--pink-medium);
+  color: var(--pink-dark);
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.dark-mode .footer {
+  background-color: var(--pink-dark);
+  color: rgb(253, 215, 244);
+}
+
+.footer a {
+  color: var(--pink-dark);
+  text-decoration: none;
+}
+
+.dark-mode .footer a {
+  color: rgb(253, 215, 244);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+      padding: 1rem;
+  }
+
+  .header-img {
+      height: 20vh;
+  }
+
+  .tagline {
+      font-size: 25px;
+  }
+
+  button {
+      padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 100%;
+      border-radius: 0;
+  }
+
+  .header-img {
+      height: 15vh;
+  }
+
+  #themeToggle {
+      top: 0.25rem;
+      right: 0.25rem;
+      font-size: 1.25rem;
+  }
+  .tagline{
+      font-size: 20px;
+  }
+}
+  
+  
