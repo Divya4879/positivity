@@ -1,0 +1,28 @@
+{
+    "name": "moodverse",
+    "version": "1.0.0",
+    "description": "Your Own Motivational Friend",
+    "main": "index.js",
+    "scripts": {
+        "start": "netlify dev"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "node-fetch": "^2.7.0"
+    },
+    "devDependencies": {
+        "netlify-cli": "^12.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Divya4879/positivity.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Divya4879/positivity/issues"
+    },
+    "homepage": "https://github.com/Divya4879/positivity#readme"
+}
