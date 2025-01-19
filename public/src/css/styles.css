@@ -38,7 +38,7 @@ body {
 .container {
   background-color: rgba(254, 233, 251, 0.9);
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgb(100, 4, 107);
+  box-shadow: 6px 4px 6px rgb(100, 4, 107);
   padding: 1rem;
   width: 90%;
   max-width: 600px;
@@ -99,7 +99,7 @@ button:disabled {
   font-weight: bold;
   max-height: 300px;
   overflow-y: auto;
-  box-shadow: 10px 4px 6px rgba(235, 147, 219, 0.938);
+  box-shadow: 10px 10px 10px rgba(235, 147, 219, 0.938);
   border: 2px solid rgb(244, 177, 243);
   text-align: center;
 }
@@ -137,7 +137,7 @@ button:disabled {
 .dark-mode #generatedContent {
   background-color: #270339;
   color: rgb(255, 214, 244);
-  box-shadow: 0 4px 6px rgba(244, 194, 244, 0.5);
+  box-shadow: 10px 10px 10px rgba(244, 194, 244, 0.5);
 }
 
 #themeToggle {
@@ -167,6 +167,7 @@ button:disabled {
   padding: 0.5rem 0;
   width: 100%;
   margin-top: auto;
+  font-weight: bold;
 }
 
 .dark-mode .footer {
@@ -200,7 +201,7 @@ button:disabled {
   }
 
   .header-img {
-      height: 20vh;
+      height: 35vh;
   }
 
   .tagline {
@@ -216,10 +217,6 @@ button:disabled {
   .container {
       width: 100%;
       border-radius: 0;
-  }
-
-  .header-img {
-      height: 15vh;
   }
 
   #themeToggle {
