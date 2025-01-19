@@ -1,6 +1,9 @@
-# Mood Booster AI Companion
+# Mood Booster 24*7 AI Companion
 
-Mood Booster AI Companion is your personalized AI assistant, designed to uplift your mood with curated motivational content. Whether you're seeking inspiration, encouragement, or a creative boost, this app tailors content to match your needs and preferences.
+Mood Uplifter AI Companion is your personalized AI assistant, designed to uplift your mood with curated motivational content. Whether you're seeking inspiration, encouragement, or a creative boost, this website tailors content to match your needs and preferences.
+
+---
+
 
 ## Live Demo
 Check out the live project here: [Mood Booster AI Companion](https://mood-booster-ai-companion.netlify.app)
@@ -8,20 +11,22 @@ Check out the live project here: [Mood Booster AI Companion](https://mood-booste
 ---
 
 ## Features
-- **Personalized Content Generation**: Receive AI-generated stories, poems, quotes, or shayaris based on your mood and input.
+- **Personalized Content Generation**: Receive AI-generated stories, poems, quotes, wishes, affirmations, riddles, and more, based on your mood and wants.
 - **Light/Dark Mode Toggle**: Seamlessly switch between light and dark themes for your preferred viewing experience.
-- **Responsive Design**: Optimized for all devices, including desktops, tablets, and smartphones.
-- **User-Friendly Interface**: Intuitive design for easy navigation and interaction.
+
+---
 
 ## Screenshots
-![Screenshot of Mood Booster AI Companion](#)
-_(Replace with actual screenshots of your project)_
+
+![screencapture-mood-booster-ai-companion-netlify-app-2025-01-19-16_54_57](https://github.com/user-attachments/assets/891f10ff-ce6d-4d6b-84e3-c33437b5675d)
+
+![screencapture-mood-booster-ai-companion-netlify-app-2025-01-19-16_54_36](https://github.com/user-attachments/assets/76624535-79c9-4503-b5ea-8b1d3b45d283)
 
 ---
 
 ## How It Works
-1. **Select Your Mood**: Choose from options like happy, sad, excited, or other custom inputs.
-2. **Choose Content Type**: Pick the type of motivational content you want (e.g., story, poem, quote, shayari).
+1. **Choose your mood at the moment**: Choose from options like happy, sad, excited, or other custom inputs.
+2. **Choose Content Type**: Pick the type of motivational content you want (e.g., story, poem, quote, affirmations).
 3. **Add Details**: Optionally, input your achievements or specific thoughts for more personalized content.
 4. **Generate Content**: Click "Generate Content" to receive your tailored boost of motivation.
 
@@ -32,7 +37,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mood-booster-ai-companion.git
+   git clone https://github.com/Divya4879/positivity.git
    ```
 
 2. Navigate to the project directory:
@@ -56,13 +61,9 @@ To run this project locally, follow these steps:
    ```
 
 ---
-## Built With
-- **HTML5 & CSS3**: For structure and styling.
-- **JavaScript**: For dynamic behavior and logic.
-- **AI Integration**: Powered by the GROQ API for habit recommendations.
 
 ## API Used
-- **GROQ API**: Facilitates habit suggestions based on user goals and priorities.
+- **GROQ API**: Facilitates content suggestions based on users' needs and choices.
 
 ---
 
@@ -94,7 +95,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## Feedback
-We'd love to hear your thoughts and suggestions! Feel free to open an issue or reach out for support.
+I'd love to hear your thoughts and suggestions! Feel free to open an issue or reach out for support.
 
 ---
 
