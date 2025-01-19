@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodVerse: Your Own Motivational Friend</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <header class="header-img">
+        <img src="images/positivity.jpg" alt="Positivity Header Image">
+    </header>
+    <button id="themeToggle">☀️</button>
+
+    <div class="container">
+        <h2 class="tagline">Transform Your Mood with Personalized Inspiration</h2>
+        <div>
+            <label for="userRole">Who are you?</label>
+            <input type="text" id="userRole" placeholder="Student, Developer, Freelancer, Content Creator, etc.">
+        </div>
+        <div>
+            <label for="mood">Select your mood:</label>
+            <select id="mood">
+                <option value="">Choose a mood</option>
+                <option value="sad">Sad</option>
+                <option value="demotivated">Demotivated</option>
+                <option value="tired">Tired</option>
+                <option value="burnt out">Burnt out</option>
+                <option value="lonely">Lonely</option>
+                <option value="frustrated">Frustrated</option>
+                <option value="miscellaneous">Miscellaneous</option>
+            </select>
+        </div>
+        <div id="miscellaneousInput">
+            <label for="customMood">Describe your mood or situation:</label>
+            <input type="text" id="customMood" placeholder="E.g., Working to resolve bugs for 5 hours">
+        </div>
+        <div>
+            <label for="contentType">Select content type:</label>
+            <select id="contentType">
+                <option value="">Choose a content type</option>
+                <option value="story">Story</option>
+                <option value="poem">Poem</option>
+                <option value="quote">Quote</option>
+                <option value="anecdote">Anecdote</option>
+                <option value="dialogue">Dialogue</option>
+                <option value="wishes">Wishes</option>
+                <option value="affirmation">Affirmation</option>
+                <option value="riddle">Riddle</option>
+            </select>
+        </div>
+        <div>
+            <label for="motivationType">Select motivation type:</label>
+            <select id="motivationType">
+                <option value="">Choose a motivation type</option>
+                <option value="uplifting">Uplifting</option>
+                <option value="inspirational">Inspirational</option>
+                <option value="motivational">Motivational</option>
+                <option value="positive">Positive</option>
+            </select>
+        </div>
+        <div>
+            <label for="achievementInput">Your worthy action or proud achievement (optional):</label>
+            <textarea id="achievementInput" rows="3"
+                placeholder="Describe a relevant accomplishment or action you're proud of"></textarea>
+        </div>
+        <button id="generateBtn" disabled>Generate Content</button>
+        <div id="error"></div>
+        <div id="generatedContent"></div>
+    </div>
+    <footer class="footer">
+        <p>Built with 💖 by <a href="https://x.com/DivsinghDev" target="_blank">Divya</a>.</p>
+        <p>Source code available <a style="text-decoration: underline" href="https://github.com/Divya4879/positivity.git" target="_blank">here</a></p>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
+
