@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd life-coach-ai
+   cd positivity-ai
    ```
 
 3. Install dependencies (if applicable):
@@ -63,7 +63,7 @@ To run this project locally, follow these steps:
 ---
 
 ## API Used
-- **GROQ API**: Facilitates content suggestions based on users' needs and choices.
+- **GROQ API**: Creates content based on users' needs and choices.
 
 ---
 
@@ -100,6 +100,6 @@ I'd love to hear your thoughts and suggestions! Feel free to open an issue or re
 ---
 
 ### Author
-Developed by [Your Name](https://your-profile-link.com).
+Developed by [Divya](https://x.com/DivsinghDev).
 
 ---
