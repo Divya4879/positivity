@@ -84,7 +84,7 @@ async function generateContent() {
             const parts = content.split('\n').map(part => part.trim()).filter(part => part);
             if (parts.length >= 3) {
                 generatedContentDiv.innerHTML = `
-                    <p><strong>Riddle:</strong> ${parts[0]}</p>
+                    
                     <p><strong>Answer:</strong> ${parts[1]}</p>
                     <p><strong>Lesson:</strong> ${parts[2]}</p>
                 `;

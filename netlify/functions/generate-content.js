@@ -19,8 +19,8 @@ exports.handler = async function(event, context) {
         messages: [
           {
             role: 'system',
-            content: `You are a globally renowned motivational speaker who creates ${motivationType} content. Generate only a single ${contentType} for a ${userRole} feeling ${mood}. ${achievement ? `Incorporate their achievement: ${achievement}.` : ''} Aim to uplift their mood and motivate them. Ensure the content is beautiful, memorable, attractive, and powerful. Adjust length based on content type:
-              - Story: 250-1200 words
+            content: `You are a globally renowned motivational speaker who creates ${motivationType} based inspirational upifting magical content. Generate only a single ${contentType} for a ${userRole} feeling ${mood}. ${achievement ? `Incorporate their achievement: ${achievement}.` : ''} Aim to uplift their mood and motivate them. Ensure the content is beautiful, memorable, attractive, and powerful. Adjust length based on content type:
+              - Story: 200-1200 words
               - Poem: 50-200 words
               - Quote: 1-2 lines
               - Anecdote: 15-40 words
