@@ -1,7 +1,7 @@
 {
     "name": "moodverse",
     "version": "1.0.0",
-    "description": "Your Own Motivational Friend",
+    "description": "Your Own 24*7 Motivational Friend",
     "main": "index.js",
     "scripts": {
         "start": "netlify dev"
@@ -18,8 +18,8 @@
         "type": "git",
         "url": "git+https://github.com/Divya4879/positivity.git"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["motivational", "positive","AI","mood uplifting"],
+    "author": "Divya Singh",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/Divya4879/positivity/issues"
